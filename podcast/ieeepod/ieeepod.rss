@@ -5,7 +5,7 @@
 
   <channel>
     <title>IEEE Podcast</title>
-    <spotify:email>ygyashgoyal@gmail.com</spotify:email>
+    <itunes:email>ygyashgoyal@gmail.com</itunes:email>
     <itunes:author>IEEE BIT Mesra</itunes:author>
     <itunes:category text="Technology"></itunes:category>
     <description>Some experienced students placed in various esteemed companies, talk together on how to make the placement/internship process a little easier. </description>
