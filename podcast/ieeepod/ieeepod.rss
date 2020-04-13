@@ -5,8 +5,10 @@
 
   <channel>
     <title>IEEE Podcast</title>
-    <itunes:email>ygyashgoyal@gmail.com</itunes:email>
-    <itunes:author>IEEE BIT Mesra</itunes:author>
+    <itunes:owner>
+        <itunes:email>ygyashgoyal@gmail.com</itunes:email>
+        <itunes:author>IEEE BIT Mesra</itunes:author>
+    </itunes:owner>
     <itunes:category text="Technology"></itunes:category>
     <description>Some experienced students placed in various esteemed companies, talk together on how to make the placement/internship process a little easier. </description>
     <itunes:image href="https://www.ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
@@ -14,7 +16,10 @@
     <link>https://www.ieeebitmesra.in</link>
     <item>
       <title>Episode 1: Goldman Sachs Discussion </title>
-      <itunes:author>IEEE BIT Mesra</itunes:author>
+      <itunes:owner>
+        <itunes:email>ygyashgoyal@gmail.com</itunes:email>
+        <itunes:author>IEEE BIT Mesra</itunes:author>
+    </itunes:owner>
       <description>Final selects for summer internship in Goldman Sachs 2020 discuss among each other how to crack the interview the smart way.</description>
       <pubDate>Tue, 14 Apr 2020 12:00:00 GMT</pubDate>
       <enclosure url="https://www.ieeebitmesra.in/podcast/ieeepod/audio/ep1.mp3"
