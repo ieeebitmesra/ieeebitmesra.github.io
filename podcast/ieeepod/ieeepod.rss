@@ -6,9 +6,10 @@
   <channel>
     <title>IEEE Podcast</title>
     <spotify:email>ygyashgoyal@gmail.com</spotify:email>
-    <spotify:author>IEEE BIT Mesra</spotify:author>
+    <itunes:author>IEEE BIT Mesra</itunes:author>
+    <itunes:category text="Technology"></itunes:category>
     <description>Some experienced students placed in various esteemed companies, talk together on how to make the placement/internship process a little easier. </description>
-    <itunes:image href="http://ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
+    <itunes:image href="https://ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
     <language>en-us</language>
     <link>https://www.ieeebitmesra.in</link>
     <item>
@@ -18,6 +19,7 @@
       <enclosure url="https://www.ieeebitmesra.in/podcast/ieeepod/audio/ep1.mp3"
        type="audio/mpeg" length="4110418" />
        <itunes:duration>24:36</itunes:duration>
+       <itunes:image href="https://ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
        <guid isPermaLink="false">ieeepodep1</guid>
      </item>
    </channel>
