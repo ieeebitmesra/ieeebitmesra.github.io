@@ -7,7 +7,7 @@
     <title>IEEE Podcast</title>
     <itunes:author>IEEE BIT Mesra</itunes:author>
     <description>Some experienced students placed in various esteemed companies, talk together on how to make the placement/internship process a little easier. </description>
-    <googleplay:image href="http://ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
+    <itunes:image href="http://ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
     <language>en-us</language>
     <link>https://www.ieeebitmesra.in</link>
     
