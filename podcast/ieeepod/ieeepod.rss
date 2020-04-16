@@ -16,7 +16,7 @@
     <language>en-us</language>
     <link>http://www.ieeebitmesra.in</link>
     <item>
-      <title>Episode 1: Goldman Sachs Discussion </title>
+      <title>Episode 1 : Goldman Sachs Discussion </title>
       <itunes:author>IEEE BIT Mesra</itunes:author>
       <description>Final selects for summer internship in Goldman Sachs 2020 discuss among each other how to crack the interview the smart way.</description>
       <pubDate>Tue, 14 Apr 2020 12:00:00 GMT</pubDate>
@@ -24,7 +24,7 @@
        type="audio/mpeg" length="48253440" />
        <itunes:duration>20:06</itunes:duration>
        <itunes:image href="http://www.ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
-       <guid isPermaLink="false">ieeepodep1</guid>
+       <guid isPermaLink="false">ieeepodgsach</guid>
      </item>
    </channel>
  </rss>
