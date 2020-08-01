@@ -15,7 +15,7 @@
     <itunes:image href="http://www.ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
     <language>en-us</language>
     <link>http://www.ieeebitmesra.in</link>
-    <item>
+<!--     <item>
       <title>Episode 1: Goldman Sachs</title>
       <itunes:author>IEEE BIT Mesra</itunes:author>
       <description>Final selects for summer internship in Goldman Sachs 2020 discuss among each other how to crack the interview the smart way.</description>
@@ -25,8 +25,8 @@
        <itunes:duration>20:06</itunes:duration>
        <itunes:image href="http://www.ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
        <guid isPermaLink="false">ieeepodgsach</guid>
-    </item>
-    <item>
+    </item> -->
+<!--     <item>
       <title>Episode 2: Microsoft</title>
       <itunes:author>IEEE BIT Mesra</itunes:author>
       <description>Final selects for summer internship in Microsoft 2020 discuss among each other how to crack the interview the smart way.</description>
@@ -36,7 +36,7 @@
        <itunes:duration>22:50</itunes:duration>
        <itunes:image href="http://www.ieeebitmesra.in/podcast/ieeepod/img/logo.jpg"/>
        <guid isPermaLink="false">ieeepodmicro</guid>
-    </item>
+    </item> -->
 
    </channel>
  </rss>
