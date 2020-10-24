@@ -73,3 +73,41 @@
    * ------------------------------------------------------------------------- */
   
   /* ## Test ## */
+
+  /*
+  Floating Social bar
+  */
+
+.floating-share-buttons{
+   top: 50%;
+   left: 0;
+   transform: translateY(-50%);
+   position: fixed;
+   z-index: 100;
+}
+
+.icons ul{
+  padding: initial;
+}
+
+
+.icons ul li{
+  height: 60px;
+  width: 60px;
+  list-style-type: none;
+  padding-left: 6px;
+  padding-top: 12px;
+  margin-top: 5px;
+  color: #fff;
+  background: #00629b;
+
+}
+
+.icons ul li:hover {
+  padding-left: 30px;
+  width: 80px;
+  transition: 0.25s;
+}
+/*
+--end of floating share buttons
+*/
