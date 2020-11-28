@@ -25,6 +25,15 @@
   <link href="css/style.css" rel="stylesheet" media="screen">
   <link href="color/default.css" rel="stylesheet" media="screen">
   <link rel="stylesheet" href="css/down-button.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/gallery.css">
+  <script src="js/jquery.fancybox.min.js"></script>
+
 
 </head>
 
@@ -60,23 +69,53 @@
     </div>
   </nav>
 
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+          
+          <div class="item active">
+            <div class="carousel-background"><img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" alt=""></div>
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <!-- <h2 style="margin-bottom: 0px;" class="animated fadeInDown"><img class="title-img"  src="img/ieee-logo.png" alt="IEEE Logo"></h2> -->
+                <h2 style="color:white; font-weight: bolder;" class=" title-text animated fadeInUp">MEGA PROJECT - 4.1</h2>
+                <h3 style="color:white; font-weight: bolder; font-family: sans-serif;" class=" title-text animated fadeInUp"><img src="img/mega-pro/calendar.png" height="30" width="30">  13 Dec - <a class="register" href="http://bit.ly/ieee-mega-project">Register Now</a></h3>
+                <h4 style="color:white; font-weight: normal; text-transform: uppercase;" class=" title-text animated fadeInUp">Co presented by</h4>
+                <h6 style="color:white; font-weight: normal;" class=" title-text animated fadeInUp ">
+                  <a href="https://www.codingninjas.com/"><img src="img/mega-pro/sponsors/codingninjas.jpeg" height="10%" width="10%"></a>
+                </h6>
+                
+                <!-- <a href="#about" class="animated fadeInUp btn-get-started scroll_down" id="scroll_down"></a> -->
+              </div>
+            </div>
+          </div>
+          
 
+         
+        </div>
 
+      </div>
+    </div>
+  </section><!-- #intro -->
 
+  <!-- -------gallery -->
+
+    
   <!-- About -->
-  <section id="about" class="home-section bg-white">
+  <section id="about" class="home-section">
     <div class="container">
       <div class="row">
         <div class="col-md-offset-2 col-md-8">
           <div class="section-heading">
-            <h2>MEGA PROJECT</h2>
+            <h2>ABOUT THE EVENT</h2>
             <div class="heading-line"></div>
           </div>
         </div>
       </div>
       <div class="row wow fadeInUp">
         <div class="col-md-6 about-img">
-          <img src="img/mega.jpg" alt="">
+          <img src="img/mega.jpg" alt="megaproject">
         </div>
 
         <div class="col-md-6 content">
@@ -93,12 +132,167 @@
       </div>
     </div>
   </section>
-  <section id="portfolio" class="home-section bg-gray">
+
+
+  <section class="prize-section" style="background-color: rgb(236, 225, 225);">
+    <div class="section-title">
+      <h1 class="container" style="padding:10px; padding-top: 20px;">PRIZES</h1>
+    </div>
+
+    <div class="temp"><img src="img/mega-pro/coming-soon.gif" style="height: 40%; width: 80%;"></div>
+     <br><br>
+    <!-- <div class="prize-grid">
+          <div class="card" style="width: 25rem; box-shadow: 5px 5px 4px #282828; background-color: rgb(240, 240, 154);margin-left: 25%;">
+              <div class="card-body">
+                  <p class="card-text" style="padding-top: 10%;">
+                      <center style="padding-top: 10%; padding-bottom: 15%;">
+                          <img src="img/mega-pro/1st.png" class="img-fluid img" style="width: 75%;">
+                          <br><br>
+                          <p style="font-weight: bolder; font-size:larger;">&#x20B9; (something) <br>+<br> Goodies<br></p>
+                      </center>
+                  </p>
+                  <h5 class="card-title"
+                      style="background-color: #ff1745EE; color: #fff; padding: 5%; margin-top: 3%; margin-bottom: 10%; ">
+                      <center>WINNER</center>
+                  </h5>
+              </div>
+          </div>
+          <div class="card" style="width: 25rem; box-shadow: 5px 5px 4px #282828; background-color: rgb(184, 179, 179); margin-left: 25%;;">
+            <div class="card-body">
+                <p class="card-text" style="padding-top: 10%;">
+                    <center style="padding-top: 10%; padding-bottom: 15%;">
+                        <img src="img/mega-pro/2nd.png" class="img-fluid img" style="width: 75%;">
+                        <br><br>
+                        <p style="font-weight: bolder; font-size:larger;">&#x20B9; (something) <br>+ <br> Goodies<br></p>
+                    </center>
+                </p>
+                <h5 class="card-title"
+                    style="background-color: #ff1745EE; color: #fff; padding: 5%; margin-top: 3%; margin-bottom: 10%;">
+                    <center>1st RUNNER UP</center>
+                </h5>
+            </div>
+        </div>
+        <div class="card" style="width: 25rem; box-shadow: 5px 5px 4px #282828; background-color: rgb(160, 81, 81); margin-left: 25%;;">
+          <div class="card-body">
+            
+              <p class="card-text" style="padding-top: 10%;">
+                  <center style="padding-top: 10%; padding-bottom: 15%;">
+                      <img src="img/mega-pro/3rd.png" class="img-fluid img" style="width: 75%;">
+                      <br><br>
+                      <p style="font-weight: bolder; font-size:larger;">&#x20B9; (something) <br> +<br> Goodies<br></p>
+                  </center>
+              </p>
+              <h5 class="card-title"
+                  style="background-color: #ff1745EE; color: #fff; padding: 5%; margin-top: 3%; margin-bottom: 10%;">
+                  <center>2nd RUNNER UP</center>
+              </h5>
+          </div>
+      </div>
+    </div>
+    <br><br><br> -->
+  </section>
+
+  <section class="photo-section" style="background-color:rgb(255, 255, 255);">
+    <div class="container">
+            <div class="row">
+                    <div class="col-md-offset-2 col-md-8">
+                      <div class="section-heading">
+                        <h2>MOMENT CAPTURES</h2>
+                        <div class="heading-line"></div>
+                      </div>
+                    </div>
+                  </div>
+        <div class="row wow fadeInUp">
+                <div class="content">
+                        <a data-fancybox="gallery" href="img/mega-pro/gallery/1.jpg"><img src="img/mega-pro/gallery/1.jpg" alt="image"></a>
+                        <a data-fancybox="gallery" href="img/mega-pro/gallery/2.jpg"><img src="img/mega-pro/gallery/2.jpg" alt="image"></a>
+                        <a data-fancybox="gallery" href="img/mega-pro/gallery/3.jpg"><img src="img/mega-pro/gallery/3.jpg" alt="image"></a>
+                        <a data-fancybox="gallery" href="img/mega-pro/gallery/4.jpg"><img src="img/mega-pro/gallery/4.jpg" alt="image"></a>
+                        <a data-fancybox="gallery" href="img/mega-pro/gallery/5.jpg"><img src="img/mega-pro/gallery/5.jpg" alt="image"></a>
+                        <a data-fancybox="gallery" href="img/mega-pro/gallery/6.jpg"><img src="img/mega-pro/gallery/6.jpg" alt="image"></a>
+                        <a data-fancybox="gallery" href="img/mega-pro/gallery/7.jpg"><img src="img/mega-pro/gallery/7.jpg" alt="image"></a>
+                        
+                        
+                  
+                      </div>
+        </div>
+</section>
+
+
+  <section class="sponsors" style="background-color: rgb(236, 225, 225);" >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-offset-2 col-md-8">
+            <div class="section-heading">
+              <h2>OUR SPONSORS</h2>
+              <div class="heading-line"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <h2 class="text-center mgt50px mb-5 sponsor-title"><span
+          style="border-style: solid; border-width: 3px; padding: 3px;">TITLE SPONSORS</span></h2>
+       <div class="title-sponsors" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">
+          
+                <div class="col col-md-8">
+                    <a href="https://amazon.in/" target="_blank"><img
+                            src="img/mega-pro/sponsors/amazon.png" alt="Amazon"
+                            class="sponsor-image" heigh=200 width="300"></a>
+                </div>
+          
+
+          
+              <div class="col col-md-8">
+                  <a href="https://amazon.in/" target="_blank"><img
+                          src="img/mega-pro/sponsors/amazon.png" alt="Amazon"
+                          class="sponsor-image" heigh=200 width="300"></a>
+              </div>
+          
+
+          
+            <div class="col col-md-8">
+                <a href="https://amazon.in/" target="_blank"><img
+                        src="img/mega-pro/sponsors/amazon.png" alt="Amazon"
+                        class="sponsor-image" heigh=200 width="300"></a>
+            </div> 
+        </div> -->
+        
+        
+        <h2 class="text-center mgt50px mb-5 sponsor-title"><span
+          style="border-style: solid; border-width: 3px; padding: 3px;">ASSOCIATE SPONSORS</span></h2>
+          
+          <div class="associate-sponsors">
+          <center>
+              
+                  <a href="https://www.codingninjas.com/" target="_blank"><img
+                          src="img/mega-pro/sponsors/codingninja.svg" alt="Coding Ninjas"
+                          class="sponsor-image"></a>
+            </center>
+          </div>  
+              <br>
+              <br>
+             
+        <!-- <h2 class="text-center mgt50px mb-5 sponsor-title"><span
+              style="border-style: solid; border-width: 3px; padding: 3px;">OTHER SPONSORS</span></h2> 
+
+          <div class="other-sponsors" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr;">    
+              
+                <div class="col col-md-8">
+                    <a href="https://amazon.in/" target="_blank"><img
+                            src="img/mega-pro/sponsors/github.jpg" alt="Amazon"
+                            class="sponsor-image" heigh=200 width="300"></a>
+                </div>
+          </div> -->
+          <br>
+          
+  </section>
+
+  <section id="portfolio" class="home-section bg-white">
         <div class="container">
           <div class="row">
             <div class="col-md-offset-2 col-md-8">
               <div class="section-heading">
-                <h2>MEGA PROJECTS</h2>
+                <h2>PAST PROJECTS</h2>
                 <div class="heading-line"></div>
                 <p>There were some great projects, but these projects were something different.</p>
               </div>

@@ -194,6 +194,7 @@ Home sections
 .home-section {
 	width: 100%;
 	padding: 76px 0px 76px 0px;
+	background-color: rgb(255, 255, 255);
 }
 
 /* --- heading --- */
@@ -282,7 +283,7 @@ Intro
 
 #intro .item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1315,4 +1316,73 @@ Leaderboard
 	cursor: pointer;
   }
 
-  
+.photo-section {
+	width: 100%;
+	padding: 76px 0px 76px 0px;
+	
+}
+
+.prize-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.sponsors {
+	display: grid;
+	grid-template: 1fr 1fr 1fr;
+	
+}
+.sponsor-image {
+	
+	height: 35%;
+	width: 35%;
+}
+
+.register {
+	
+	color: rgb(255, 255, 255);
+	padding: 10px;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+.intrologo {
+	height: 10%;
+	width: 10%;
+}
+
+
+@-webkit-keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+	
+	to {
+	  text-shadow: 0 0 20px #fff, 0 0 30px #594dff, 0 0 40px #684dff, 0 0 50px #744dff, 0 0 60px #684dff, 0 0 70px #7c4dff, 0 0 80px #4d59ff;
+	}
+  }
+
+
+
+@media only screen and (max-width: 600px) {
+	.prize-grid {
+		display: inline;
+	}
+
+	.sponsor-title {
+		font-size: large;
+		
+	}
+
+	.temp {
+		height: 50;
+		width: 50;
+	}
+
+	.intrologo {
+		height: 10%;
+		width: 10%;
+	}
+}
