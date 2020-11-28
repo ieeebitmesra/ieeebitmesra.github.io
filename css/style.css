@@ -1342,7 +1342,6 @@ Leaderboard
 .register {
 	
 	color: rgb(255, 255, 255);
-	padding: 10px;
 	-webkit-animation: glow 1s ease-in-out infinite alternate;
 	-moz-animation: glow 1s ease-in-out infinite alternate;
 	animation: glow 1s ease-in-out infinite alternate;
@@ -1384,5 +1383,14 @@ Leaderboard
 	.intrologo {
 		height: 10%;
 		width: 10%;
+	}
+	
+	.register {
+		
+		color: rgb(255, 255, 255);
+		font-size: large;
+		-webkit-animation: glow 1s ease-in-out infinite alternate;
+		-moz-animation: glow 1s ease-in-out infinite alternate;
+		animation: glow 1s ease-in-out infinite alternate;
 	}
 }

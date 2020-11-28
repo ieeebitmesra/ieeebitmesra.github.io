@@ -79,7 +79,7 @@
   */
 
 .floating-share-buttons{
-   top: 50%;
+   top: 60%;
    left: 0;
    transform: translateY(-50%);
    position: fixed;
