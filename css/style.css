@@ -1335,8 +1335,8 @@ Leaderboard
 }
 .sponsor-image {
 	
-	height: 35%;
-	width: 35%;
+	height: 25%;
+	width: 25%;
 }
 
 .register {
@@ -1363,6 +1363,10 @@ Leaderboard
 	}
   }
 
+#tqfocus_svg {
+	height: 40%;
+	width: 40%;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -1392,5 +1396,28 @@ Leaderboard
 		-webkit-animation: glow 1s ease-in-out infinite alternate;
 		-moz-animation: glow 1s ease-in-out infinite alternate;
 		animation: glow 1s ease-in-out infinite alternate;
+	}
+
+	
+
+	#cninja-intro {
+		height: 15%;
+		width: 15%;
+	}
+
+	#tqfocus {
+		height: 25%;
+		width: 25%;
+	}
+
+	.sponsor-image {
+	
+		height: 50%;
+		width: 50%;
+	}
+
+	#tqfocus_svg {
+		height: 60%;
+		width: 60%;
 	}
 }
