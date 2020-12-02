@@ -1368,6 +1368,11 @@ Leaderboard
 	width: 40%;
 }
 
+#coding-block_id {
+	height: 35%;
+	width: 35%;
+}
+
 
 @media only screen and (max-width: 600px) {
 	.prize-grid {
@@ -1417,6 +1422,11 @@ Leaderboard
 	}
 
 	#tqfocus_svg {
+		height: 60%;
+		width: 60%;
+	}
+
+	#coding-block_id {
 		height: 60%;
 		width: 60%;
 	}
