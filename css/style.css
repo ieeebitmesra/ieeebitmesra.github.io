@@ -1363,14 +1363,27 @@ Leaderboard
 	}
   }
 
+.kilobyte-sponsors {
+	display: flex;
+	padding: 0;
+}
+
 #tqfocus_svg {
 	height: 40%;
 	width: 40%;
 }
 
 #coding-block_id {
-	height: 35%;
-	width: 35%;
+	padding-top: 50px;
+	height: 90%;
+	width: 60%;
+}
+
+#gfg_id {
+	padding-left: 0;
+	padding-right: 30px;
+	height: 90%;
+	width: 90%;
 }
 
 
@@ -1428,6 +1441,20 @@ Leaderboard
 
 	#coding-block_id {
 		height: 60%;
-		width: 60%;
+		width: 70%;
+		padding-bottom: 10px;
 	}
+	#gfg_id {
+		height: 50%;
+		width: 60%;
+		padding: 10px;
+
+	}
+	
+
+	.kilobyte-sponsors {
+		display: inline;
+	}
+
+	
 }
